@@ -1,0 +1,21 @@
+OK:
+
+First, go to my linux box ( running on HP laptop), VM called terraform
+go to ./study/aws-course ( newly created), run 
+git clone https://github.com/nealdct/aws-soa-code.git
+then all files downloaded onto this sub folder, note the github is main branch ( not master)
+
+on my own github, I created a repo called aws-udemy, add the read me file
+
+then I went to github and created a Token, this is how:  go to settings, scroll down to the bottom left, and find "developer setting",
+click "Personal access Token", Token ( classic), generate new token (classic), select repo ( you can select everything and delete token afterwards)
+save the Token to a tetx file as this is only one time event!
+
+Go to Linux box, go to ./study/aws-course/aws-soa-code
+
+run:   git init .             then git push --mirror https://github.com/shfy70/aws-udemy.git
+
+type  shfy70
+then type Token
+done!
+
